@@ -1,0 +1,13 @@
+{
+  "name": "node-knex-principle-of-least-privilege",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "knex": "^0.12.1",
+    "mssql": "^3.3.0",
+    "sqlite3": "^3.1.6"
+  }
+}
