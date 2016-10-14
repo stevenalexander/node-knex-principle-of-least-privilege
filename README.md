@@ -55,6 +55,8 @@ You have two applications:
 
 ### Note
 
+Found this [link](http://dba.stackexchange.com/questions/143157/sql-server-how-to-grant-select-permission-on-view-that-access-data-in-schemas) helpful for creating the table function which can run under different permissions.
+
 This solution is for when you can't or don't want to split concerns further, such as a full microservice architecture and split database for internal/external. For more security you could split out data operations with a separate **external-web**/**external-api** and **internal-web**/**internal-api**, with the APIs hosted on separate servers IP restricting calls to their web apps and the DB IP restricted to the APIs.
 
 But sometimes tripling the complexity of your architecture isn't a good option.
